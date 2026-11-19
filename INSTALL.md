@@ -9,3 +9,7 @@ Set up [PrimitiveOS](https://github.com/DoanNguyenTrong/kindle-primitive) once w
 3. Eject the drive and open **Starship** in Launcher. Tap **Done** to return to Launcher.
 
 The package targets hard-float Kindle devices with firmware 5.16.3 or newer and uses Launcher’s fonts.
+
+## Upgrade from Starship 0.1.0
+
+Update Starship in Store. For a manual upgrade, follow the USB steps above and merge the package into the existing `starship/` directory. Arcade missions use `starship/starship-arcade.json`. The previous turn-based mission and score are still in `starship/starship.json`.

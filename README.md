@@ -2,25 +2,27 @@
 
 # Starship
 
-**A turn-based space shooter for PrimitiveOS.**
+**A real-time space shooter for PrimitiveOS.**
 
-Read the next volley, move between three lanes, and destroy the flagship.
+Steer through incoming fire, clear three waves, and take down the flagship.
 
-![Starship showing incoming fire in the left lane](docs/images/starship.png)
+![Starship before launch, with three scouts above the player's ship](docs/images/starship.png)
 
 </div>
 
 ## Play
 
-Each action takes one turn. Use **Move left** or **Move right** to change lanes. **Fire** hits the target in your current lane. A lane marked **Incoming fire** is struck after your action. Use **Shield** when you need to stay in that lane. You have two shields per wave and three hull points for the mission.
+Tap **Start**, then tap a spot across the field to steer there. Swipe left or right to shift by several columns, or use **Left** and **Right** for single-column movement. Your ship fires while you steer. Straight streaks are your shots. Enemy bolts have a wider tip and travel toward your ship.
 
-Clear the patrol, crossfire, and vanguard waves, then defeat the flagship. Targets take one or more hits, shown by the marks under each ship. The final hit clears the wave before its volley lands. Missions and best scores save on the Kindle, and the game plays offline.
+Clear the patrol, crossfire, and vanguard, then defeat the flagship. Guards and the flagship have health bars below them. You start with three hull points. Dodge shots and clear each wave before the fleet reaches the flight line. The next wave starts after a short break.
 
-![Starship after blocking a volley in dark mode](docs/images/starship-playing.png)
+Tap **Pause** or **Done** whenever you need a break. Starship saves your mission and best score on the Kindle and plays offline. If you reopen Starship during a mission or return from sleep or USB drive mode, tap **Resume** to continue. Starship 0.1.1 saves arcade progress separately from the previous turn-based mode. [Paused mission screenshot](docs/images/starship-paused.png)
+
+![Starship in flight in dark mode, with the score, incoming fire, and steering controls visible](docs/images/starship-playing.png)
 
 ## Get it
 
-Open **Store** in Primitive Launcher, refresh the catalog, and search for **Starship**. The GitHub release also includes a verified ARMHF package. [Installation guide](INSTALL.md)
+Open **Store** in Primitive Launcher, refresh the catalog, and search for **Starship**. The GitHub release also includes an ARMHF package. [Installation guide](INSTALL.md)
 
 ## Build and preview
 

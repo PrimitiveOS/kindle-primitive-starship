@@ -6,7 +6,7 @@
   "subtitle": "Dodge fire and defeat the flagship",
   "developer": { "name": "Primitive AI" },
   "categories": ["games"],
-  "description": "Pilot a ship through three short waves and a flagship encounter. Read the next volley, dodge between lanes, and time your shots and shields. Play offline with saved progress and a best score.",
+  "description": "Pilot a ship through three waves and a flagship encounter. Steer with taps or swipes, dodge enemy bolts, and line up your automatic shots. Play offline with saved progress and a best score.",
   "repo": "https://github.com/DoanNguyenTrong/kindle-primitive-starship",
   "licence": "PolyForm-Noncommercial-1.0.0",
   "source": "hosted",

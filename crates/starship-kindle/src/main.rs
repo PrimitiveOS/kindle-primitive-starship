@@ -5,5 +5,8 @@ use starship_render::View;
 fn main() -> Result<(), String> {
     let directory = std::env::var_os("PRIMITIVE_APP_DIR")
         .map_or_else(|| PathBuf::from("/mnt/us/starship"), PathBuf::from);
-    primitive_app::run(View::open(directory.join("starship.json")), &directory)
+    primitive_app::run(
+        View::open(directory.join("starship-arcade.json")),
+        &directory,
+    )
 }

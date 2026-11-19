@@ -5,7 +5,6 @@ use std::{
 
 use primitive_app::{font_paths, frame, write_png, App, Change, HEIGHT, WIDTH};
 use primitive_ui::{Canvas, Input};
-use starship_core::Event;
 use starship_render::View;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
@@ -27,13 +26,17 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             &frame(app, &mut canvas, dark),
         )
     };
-    assert_eq!(app.input(Input::Tap(160.0, 1280.0)), Change::Partial);
+
     shot(&app, "starship.png", false)?;
-    assert_eq!(app.input(Input::Tap(1060.0, 1280.0)), Change::Partial);
-    assert_eq!(app.game.event(), Event::Deflected);
+    assert_eq!(app.input(Input::Tap(632.0, 1340.0)), Change::Partial);
+    for _ in 0..14 {
+        assert_eq!(app.tick(app.deadline().unwrap()), Change::Partial);
+    }
+    assert_eq!(app.input(Input::Tap(804.0, 1128.0)), Change::Partial);
     shot(&app, "starship-playing.png", true)?;
-    assert_eq!(app.input(Input::Tap(985.0, 1545.0)), Change::Full);
-    assert_eq!(app.input(Input::Tap(500.0, 860.0)), Change::Full);
+    assert_eq!(app.input(Input::Tap(632.0, 1340.0)), Change::Partial);
+    assert!(app.deadline().is_none());
+    shot(&app, "starship-paused.png", false)?;
     assert_eq!(app.input(Input::Tap(1120.0, 92.0)), Change::Exit);
     Ok(())
 }
