@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = ["crates/starship-core", "crates/starship-render", "crates/starship-kindle", "crates/starship-desktop"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "PolyForm-Noncommercial-1.0.0"
+
+[workspace.dependencies]
+starship-core = { path = "crates/starship-core" }
+starship-render = { path = "crates/starship-render" }
+primitive-app = { path = "../doannt-kindle-tools/crates/primitive-app" }
+primitive-ui = { path = "../doannt-kindle-tools/crates/primitive-ui" }
+
+[profile.release]
+lto = true
+codegen-units = 1

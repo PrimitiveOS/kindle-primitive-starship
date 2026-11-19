@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "id": "primitive-starship",
+  "dir": "starship",
+  "name": "Starship",
+  "subtitle": "Dodge incoming fire and defeat the flagship",
+  "developer": { "name": "Primitive AI" },
+  "categories": ["games"],
+  "description": "Pilot a ship through three short waves and a flagship encounter. Read the next volley, dodge between lanes, and time your shots and shields. Play offline with saved progress and a best score.",
+  "repo": "https://github.com/DoanNguyenTrong/kindle-primitive-starship",
+  "licence": "PolyForm-Noncommercial-1.0.0",
+  "source": "hosted",
+  "icon": "icon.png",
+  "changes": {
+    "network": false,
+    "stops_kindle_ui": false,
+    "starts_at_boot": false,
+    "root_filesystem": false,
+    "hooks": false
+  },
+  "versions": []
+}

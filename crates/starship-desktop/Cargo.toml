@@ -1,0 +1,11 @@
+[package]
+name = "starship-desktop"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+starship-core.workspace = true
+starship-render.workspace = true
+primitive-app.workspace = true
+primitive-ui.workspace = true

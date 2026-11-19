@@ -1,0 +1,11 @@
+[package]
+name = "starship-render"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+starship-core.workspace = true
+primitive-app.workspace = true
+primitive-ui.workspace = true
+serde_json = "1"
