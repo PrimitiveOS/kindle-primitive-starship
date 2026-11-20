@@ -7,7 +7,7 @@
   "developer": { "name": "Primitive AI" },
   "categories": ["games"],
   "description": "Pilot a ship through three waves and a flagship encounter. Steer with taps or swipes, dodge enemy bolts, and line up your automatic shots. Play offline with saved progress and a best score.",
-  "repo": "https://github.com/DoanNguyenTrong/kindle-primitive-starship",
+  "repo": "https://github.com/PrimitiveOS/kindle-primitive-starship",
   "licence": "PolyForm-Noncommercial-1.0.0",
   "source": "hosted",
   "icon": "icon.png",
