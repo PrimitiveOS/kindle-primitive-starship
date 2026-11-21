@@ -9,7 +9,7 @@
 [![CI](https://img.shields.io/github/actions/workflow/status/PrimitiveOS/kindle-primitive-starship/ci.yml?branch=main&label=CI)](https://github.com/PrimitiveOS/kindle-primitive-starship/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/PrimitiveOS/kindle-primitive-starship?label=release)](https://github.com/PrimitiveOS/kindle-primitive-starship/releases)
 [![Tag](https://img.shields.io/github/v/tag/PrimitiveOS/kindle-primitive-starship?label=tag)](https://github.com/PrimitiveOS/kindle-primitive-starship/tags)
-[![Licence: PolyForm-Noncommercial-1.0.0](https://img.shields.io/badge/licence-PolyForm--Noncommercial--1.0.0-blue)](LICENSE)
+[![Licence: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/licence-PolyForm%20Noncommercial%201.0.0-blue)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/PrimitiveOS/kindle-primitive-starship?style=social)](https://github.com/PrimitiveOS/kindle-primitive-starship/stargazers)
 [![Store downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fprimitiveos.github.io%2Fkindle-primitive-catalog%2Fv1%2Fbadges%2Fprimitive-starship.json)](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json)
 
