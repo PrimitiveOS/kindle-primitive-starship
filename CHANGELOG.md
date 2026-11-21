@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3
+
+- The library icon has a dark form, shown in dark mode.
+
 ## 0.1.1
 
 - Added real-time steering, automatic fire, moving fleets, and traveling projectiles with collisions.
