@@ -1,40 +1,49 @@
 <div align="center">
 
+<img src="icon.png" alt="Starship icon" width="110">
+
 # Starship
 
-**A real-time space shooter for PrimitiveOS.**
+**Dodge fire and defeat the flagship**
 
-Steer through incoming fire, clear three waves, and take down the flagship.
+[![Release](https://img.shields.io/github/v/release/PrimitiveOS/kindle-primitive-starship?label=release)](https://github.com/PrimitiveOS/kindle-primitive-starship/releases) [![Licence: PolyForm-Noncommercial-1.0.0](https://img.shields.io/badge/licence-PolyForm--Noncommercial--1.0.0-blue)](LICENSE) [![Store downloads](https://img.shields.io/badge/Store%20downloads-46-brightgreen)](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json)
 
-![Starship before launch, with three scouts above the player's ship](docs/images/starship.png)
+[**Download**](https://github.com/PrimitiveOS/kindle-primitive-starship/releases/latest) · [**Install guide**](INSTALL.md) · [**Changelog**](CHANGELOG.md)
 
 </div>
 
-## Play
+---
 
-Tap **Start**, then tap a spot across the field to steer there. Swipe left or right to shift by several columns, or use **Left** and **Right** for single-column movement. Your ship fires while you steer. Straight streaks are your shots. Enemy bolts have a wider tip and travel toward your ship.
+Pilot a ship through three waves and a flagship encounter. Steer with taps or swipes, dodge enemy bolts, and line up your automatic shots. Play offline with saved progress and a best score.
 
-Clear the patrol, crossfire, and vanguard, then defeat the flagship. Guards and the flagship have health bars below them. You start with three hull points. Dodge shots and clear each wave before the fleet reaches the flight line. The next wave starts after a short break.
+## Quick start
 
-Tap **Pause** or **Done** whenever you need a break. Starship saves your mission and best score on the Kindle and plays offline. If you reopen Starship during a mission or return from sleep or USB drive mode, tap **Resume** to continue. Starship 0.1.1 saves arcade progress separately from the previous turn-based mode. [Paused mission screenshot](docs/images/starship-paused.png)
+After setting up PrimitiveOS, open **Store** from Primitive Launcher. Choose **Starship** under **Apps**,
+tap **Get**, and open it from the Launcher grid. The [install guide](INSTALL.md) also covers the standalone USB package.
 
-![Starship in flight in dark mode, with the score, incoming fire, and steering controls visible](docs/images/starship-playing.png)
+## Highlights
 
-## Get it
+- Pilot a ship through three waves and a flagship encounter.
+- Steer with taps or swipes, dodge enemy bolts, and line up your automatic shots.
+- Play offline with saved progress and a best score.
 
-Open **Store** in Primitive Launcher, refresh the catalog, and search for **Starship**. The GitHub release also includes an ARMHF package. [Installation guide](INSTALL.md)
+## Status
 
-## Build and preview
+| Device | Status |
+|---|---|
+| Kindle Oasis 3 (1264 × 1680, firmware 5.18.2) | Tested on hardware |
 
-Place the PrimitiveOS Tools and Launcher checkouts beside this repository as `doannt-kindle-tools` and `doannt-kindle-launcher`. The desktop preview uses the Launcher fonts.
+**Current version: 0.1.2.** Changes are in [CHANGELOG.md](CHANGELOG.md).
 
-```sh
-cargo test --locked --workspace
-cargo run --locked -p starship-desktop -- build/previews
-cargo zigbuild --locked --release -p starship-kindle --target armv7-unknown-linux-musleabihf
-sh scripts/stage.sh armhf
-```
+## Downloads
 
-## License
+**46 downloads** from Store, as of 2026-11-21. Store shows the same count on the app page.
+The count is GitHub downloads of this app's release packages, from the [Store catalog](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json).
+
+## Documentation
+
+[Install guide](INSTALL.md) · [Changelog](CHANGELOG.md)
+
+## Licence
 
 Starship code is [PolyForm Noncommercial 1.0.0](LICENSE). Documentation, screenshots, and original artwork are [CC BY-NC-SA 4.0](LICENSE-DOCS). The release ZIP includes both license files.
