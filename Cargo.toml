@@ -3,7 +3,7 @@ resolver = "2"
 members = ["crates/starship-core", "crates/starship-render", "crates/starship-kindle", "crates/starship-desktop"]
 
 [workspace.package]
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 license = "PolyForm-Noncommercial-1.0.0"
 
