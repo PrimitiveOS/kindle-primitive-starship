@@ -253,7 +253,7 @@ impl View {
 impl App for View {
     fn draw(&self, canvas: &mut Canvas) {
         let width = canvas.bounds().w;
-        header(canvas, "Starship", "Done");
+        header(canvas, "Starship", "Exit");
         self.draw_hud(canvas, width);
         self.draw_board(canvas, width);
         self.draw_controls(canvas, width);
